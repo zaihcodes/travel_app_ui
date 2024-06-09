@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app_ui/ascreens/home_screen.dart';
 import 'package:travel_app_ui/core/app_colors.dart';
 import 'package:travel_app_ui/core/constants.dart';
 
@@ -20,11 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Future goToHomePage() async {
     Future.delayed(Duration(milliseconds: 500), () {
       Navigator.push(context, MaterialPageRoute(builder: (context) {
-        return Scaffold(
-          body: Center(
-            child: Text('Welcome'),
-          ),
-        );
+        return HomeScreen();
       }));
     });
   }
