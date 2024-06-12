@@ -26,9 +26,15 @@ class CustomAppbar extends StatelessWidget {
             ],
           ),
         ),
-        SizedBox(
-          height: 30,
-          child: Icon(Icons.person),
+        ClipOval(
+          child: SizedBox(
+            height: 50,
+            width: 50,
+            child: Image.asset(
+              'assets/images/mount_fuji.png',
+              fit: BoxFit.cover,
+            ),
+          ),
         )
       ],
     );

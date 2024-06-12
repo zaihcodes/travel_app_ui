@@ -1,16 +1,8 @@
 # travel_app_ui
 
-A new Flutter project.
+### Design source
+ <a href="https://www.figma.com/community/file/1287066164820744997" >Mobile app UI Template</a>
 
-## Getting Started
+## ScreenShots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img alt="Splash screen" src="screenshots/travel_app_ui_splash.png" height="500em" />  <img alt="Home screen" src="screenshots/travel_app_ui_home.png" height="500em" />  <img alt="Detail screen" src="screenshots/travel_app_ui_detail.png" height="500em" />
