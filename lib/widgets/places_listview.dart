@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+import 'package:travel_app_ui/widgets/place_card.dart';
+
+class PlacesListView extends StatelessWidget {
+  const PlacesListView({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      scrollDirection: Axis.horizontal,
+      children: const [
+        PlaceCard(
+          imagePath: 'assets/images/mount_fuji.png',
+          placeName: 'Mount Fuji',
+          location: 'Tokyo, Japan',
+          rating: 4.8,
+        ),
+        SizedBox(
+          width: 20,
+        ),
+        PlaceCard(
+          imagePath: 'assets/images/andes_mountain.png',
+          placeName: 'Andes mountain',
+          location: 'South, America',
+          rating: 4.8,
+        ),
+        // Add more PlaceCard widgets as needed
+      ],
+    );
+  }
+}

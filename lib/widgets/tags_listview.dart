@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class TagsListview extends StatefulWidget {
-  const TagsListview({super.key});
+class TagsListView extends StatefulWidget {
+  const TagsListView({super.key});
 
   @override
-  State<TagsListview> createState() => _TagsListviewState();
+  State<TagsListView> createState() => _TagsListViewState();
 }
 
-class _TagsListviewState extends State<TagsListview> {
+class _TagsListViewState extends State<TagsListView> {
   List<Map<String, dynamic>> popularTags = [
     {'tag': 'Most Viewed', 'isActive': true},
     {'tag': 'Nearby', 'isActive': false},
